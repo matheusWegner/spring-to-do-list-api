@@ -36,8 +36,7 @@ public class User implements UserDetails,Serializable {
     private String password;
     private String img;
     @Column(name="EMAIL")
-    private String email;
-
+    private String email; 
 
 
     public User(String email, String password){

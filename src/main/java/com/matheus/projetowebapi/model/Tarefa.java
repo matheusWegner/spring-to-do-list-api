@@ -28,16 +28,18 @@ public class Tarefa {
     private String titulo;
     private LocalDate data;
     private String hora;
+    private String horaFim;
     private String userId;
     private String status;
     private boolean todoDia;
-    public Tarefa(String id,String descricao, String titulo, LocalDate data, String hora,boolean todoDia) {
+    public Tarefa(String id,String descricao, String titulo, LocalDate data, String hora,String horaFim,boolean todoDia) {
         this.id = id;
         this.descricao = descricao;
         this.titulo = titulo;
         this.data = data;
         this.hora = hora;
         this.todoDia = todoDia;
+        this.horaFim = horaFim;
     }
     
 }

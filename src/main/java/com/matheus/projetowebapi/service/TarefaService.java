@@ -27,6 +27,7 @@ public class TarefaService {
                                    tarefaDTO.titulo(),
                                    tarefaDTO.data(),
                                    tarefaDTO.hora(),
+                                   tarefaDTO.horaFim(),
                                    tarefaDTO.todoDia());
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         tarefa.setUserId(user.getId());
@@ -41,6 +42,7 @@ public class TarefaService {
                                    tarefaDTO.titulo(),
                                    tarefaDTO.data(),
                                    tarefaDTO.hora(),
+                                   tarefaDTO.horaFim(),
                                    tarefaDTO.todoDia());
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         tarefa.setUserId(user.getId());
